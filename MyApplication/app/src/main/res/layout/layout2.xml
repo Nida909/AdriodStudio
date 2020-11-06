@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_marginLeft="30dp"
+    android:layout_marginRight="30dp">
+    <EditText
+        android:id="@+id/enter"
+        android:layout_alignParentTop="true"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Enter your name"
+        ></EditText>
+    <EditText
+        android:id="@+id/are"
+        android:layout_below="@id/enter"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Enter your id"
+        ></EditText>
+
+    <CheckBox
+        android:id="@+id/thrid"
+        android:layout_below="@id/are"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Remember Pard"
+        android:textSize="8pt"
+        ></CheckBox>
+    <Button
+        android:layout_below="@id/thrid"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="SIGNIN"
+        android:textSize="9pt"
+        android:id="@+id/your"
+        ></Button>
+    <Button
+        android:id="@+id/but"
+        android:layout_below="@id/your"
+        android:layout_alignParentLeft="true"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Back"
+        android:paddingRight="70dp"
+        android:paddingLeft="70dp"
+        android:textSize="9pt"
+        ></Button>
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/your"
+        android:text="Nect"
+        android:gravity="fill"
+        android:layout_alignParentRight="true"
+        android:textSize="9pt"
+        android:paddingRight="70dp"
+        android:paddingLeft="70dp"
+        ></Button>
+    <Button
+        android:gravity="fill"
+        android:id="@+id/lat"
+
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Regiter"
+        android:textSize="9pt"
+        android:layout_below="@id/but"
+        ></Button>
+    <TextView
+        android:layout_below="@id/lat"
+        android:textSize="7pt"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Term and Condition apply to all uer. check our webite for detail"
+        ></TextView>
+</RelativeLayout>

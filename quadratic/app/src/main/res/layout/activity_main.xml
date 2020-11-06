@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity"
+    android:layout_margin="30dp"
+    >
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/edt"
+        android:layout_alignParentTop="true"
+
+        android:hint="Enter value for a"
+        android:layout_marginBottom="20dp"
+        android:inputType="number"
+        ></EditText>
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/edt1"
+        android:inputType="number"
+        android:hint="Enter value for b"
+        android:layout_below="@id/edt"
+        android:layout_marginBottom="20dp"
+
+        ></EditText>
+    <EditText
+
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Enter value for c"
+        android:id="@+id/edt2"
+        android:layout_below="@id/edt1"
+        android:inputType="number"
+        android:layout_marginBottom="20dp"
+
+        ></EditText>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/t"
+        android:layout_below="@id/edt2"
+        android:textSize="18dp"
+        android:visibility="invisible"
+        android:layout_marginBottom="20dp"
+        ></TextView>
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Calculate Root"
+        android:id="@+id/b1"
+        android:layout_below="@id/t"
+        android:onClick="root"
+        android:layout_centerHorizontal="true"
+        ></Button>
+
+</RelativeLayout>

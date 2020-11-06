@@ -1,0 +1,27 @@
+<resources>
+    <string name="app_name">ass2 q2</string>
+<string-array name="email">
+    <item>nidaanjum0@gmail.com</item>
+    <item>nidaanjum1@gmail.com</item>
+    <item>nidaanjum2@gmail.com</item>
+    <item>nidaanjum3@gmail.com</item>
+    <item>nidaanjum4@gmail.com</item>
+    <item>nidaanjum5@gmail.com</item>
+    <item>nidaanjum6@gmail.com</item>
+    <item>nidaanjum7@gmail.com</item>
+    <item>nidaanjum8@gmail.com</item>
+    <item>nidaanjum9@gmail.com</item>
+    </string-array>
+    <string-array name="password">
+        <item>nidaa440</item>
+        <item>nidaa441</item>
+        <item>nidaa442</item>
+        <item>nidaa443</item>
+        <item>nidaa444</item>
+        <item>nidaa445</item>
+        <item>nidaa446</item>
+        <item>nidaa447</item>
+        <item>nidaa448</item>
+        <item>nidaa449</item>
+    </string-array>
+</resources>
